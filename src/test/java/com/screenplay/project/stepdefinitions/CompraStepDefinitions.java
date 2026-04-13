@@ -7,6 +7,8 @@ import com.screenplay.project.questions.OrderConfirmationIsDisplayed;
 import com.screenplay.project.questions.ProductInSummary;
 import com.screenplay.project.tasks.*;
 import com.screenplay.project.userinterface.CheckoutPage;
+import com.screenplay.project.userinterface.CheckoutPage;
+import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.Before;
@@ -17,10 +19,12 @@ import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
+import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import java.util.List;
 import java.util.Map;
 
+import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.Matchers.*;
 
@@ -80,6 +84,9 @@ public class CompraStepDefinitions {
 
     @Then("visualiza el resumen de compra con el producto {string}")
     public void visualizaElResumenDeCompra(String productName) {
+        actor.attemptsTo(
+                WaitUntil.the(CheckoutPage.FINISH_BUTTON, isVisible()).forNoMoreThan(15).seconds()
+        );
         actor.should(
                 seeThat(ProductInSummary.name(), equalTo(productName))
         );

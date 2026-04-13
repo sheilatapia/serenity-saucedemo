@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Compra exitosa de un producto" skipped="0" tests="1" time="13.31" timestamp="2026-04-13 10:18:16"><testcase name="Finalizar una compra con 1 producto"><error message="Expected condition failed: waiting for By.cssSelector: [data-test='inventory-item-name'] to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.21.0', revision: '79ed462ef4'&#10;System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3.1', java.version: '17.0.18'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Expected condition failed: waiting for By.cssSelector: [data-test='inventory-item-name'] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3.1', java.version: '17.0.18'
-Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for By.cssSelector: [data-test='inventory-item-name'] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3.1', java.version: '17.0.18'
-Driver info: driver.version: unknown
-com.screenplay.project.questions.ProductInSummary.answeredBy(ProductInSummary.java:17)
-com.screenplay.project.questions.ProductInSummary.answeredBy(ProductInSummary.java:7)
-com.screenplay.project.stepdefinitions.CompraStepDefinitions.visualizaElResumenDeCompra(CompraStepDefinitions.java:83)
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Compra exitosa de un producto" skipped="0" tests="1" time="9.13" timestamp="2026-04-13 10:41:23"><testcase name="Finalizar una compra con 1 producto"/></testsuite>
