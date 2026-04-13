@@ -5,6 +5,7 @@ com/screenplay/project/tasks/Login.class
 com/screenplay/project/questions/OrderConfirmationIsDisplayed.class
 com/screenplay/project/tasks/FillBuyerInformation.class
 com/screenplay/project/runners/TestRunner.class
+com/screenplay/project/utils/EnvironmentReader.class
 com/screenplay/project/models/BuyerData.class
 com/screenplay/project/stepdefinitions/CompraStepDefinitions.class
 com/screenplay/project/tasks/StartCheckout.class
