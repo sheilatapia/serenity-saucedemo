@@ -1,0 +1,17 @@
+com/screenplay/project/tasks/AddProductToCart.class
+com/screenplay/project/userinterface/CheckoutPage.class
+com/screenplay/project/userinterface/CartPage.class
+com/screenplay/project/tasks/Login.class
+com/screenplay/project/questions/OrderConfirmationIsDisplayed.class
+com/screenplay/project/tasks/FillBuyerInformation.class
+com/screenplay/project/runners/TestRunner.class
+com/screenplay/project/models/BuyerData.class
+com/screenplay/project/stepdefinitions/CompraStepDefinitions.class
+com/screenplay/project/tasks/StartCheckout.class
+com/screenplay/project/tasks/NavigateToCart.class
+com/screenplay/project/questions/ProductInSummary.class
+com/screenplay/project/tasks/FinishPurchase.class
+com/screenplay/project/userinterface/LoginPage.class
+com/screenplay/project/models/BuyerData$BuyerDataBuilder.class
+com/screenplay/project/questions/CartIsEmpty.class
+com/screenplay/project/userinterface/InventoryPage.class

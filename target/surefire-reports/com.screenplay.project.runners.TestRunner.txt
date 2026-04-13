@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.screenplay.project.runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.96 s <<< FAILURE! -- in com.screenplay.project.runners.TestRunner
+Compra exitosa de un producto.Finalizar una compra con 1 producto -- Time elapsed: 13.48 s <<< FAILURE!
+java.lang.AssertionError: 
+Expected condition failed: waiting for By.cssSelector: [data-test='inventory-item-name'] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.3.1', java.version: '17.0.18'
+Driver info: driver.version: unknown
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
+	at com.screenplay.project.stepdefinitions.CompraStepDefinitions.visualizaElResumenDeCompra(CompraStepDefinitions.java:83)
+	at ✽.visualiza el resumen de compra con el producto "Sauce Labs Backpack"(classpath:features/compra_exitosa.feature:17)
+

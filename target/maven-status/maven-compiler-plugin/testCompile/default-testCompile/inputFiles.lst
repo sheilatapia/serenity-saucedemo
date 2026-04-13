@@ -1,0 +1,17 @@
+/Users/sheilatapia/serenity-saucedemo/src/test/java/com/screenplay/project/models/BuyerData.java
+/Users/sheilatapia/serenity-saucedemo/src/test/java/com/screenplay/project/questions/CartIsEmpty.java
+/Users/sheilatapia/serenity-saucedemo/src/test/java/com/screenplay/project/questions/OrderConfirmationIsDisplayed.java
+/Users/sheilatapia/serenity-saucedemo/src/test/java/com/screenplay/project/questions/ProductInSummary.java
+/Users/sheilatapia/serenity-saucedemo/src/test/java/com/screenplay/project/runners/TestRunner.java
+/Users/sheilatapia/serenity-saucedemo/src/test/java/com/screenplay/project/stepdefinitions/CompraStepDefinitions.java
+/Users/sheilatapia/serenity-saucedemo/src/test/java/com/screenplay/project/tasks/AddProductToCart.java
+/Users/sheilatapia/serenity-saucedemo/src/test/java/com/screenplay/project/tasks/FillBuyerInformation.java
+/Users/sheilatapia/serenity-saucedemo/src/test/java/com/screenplay/project/tasks/FinishPurchase.java
+/Users/sheilatapia/serenity-saucedemo/src/test/java/com/screenplay/project/tasks/Login.java
+/Users/sheilatapia/serenity-saucedemo/src/test/java/com/screenplay/project/tasks/NavigateToCart.java
+/Users/sheilatapia/serenity-saucedemo/src/test/java/com/screenplay/project/tasks/StartCheckout.java
+/Users/sheilatapia/serenity-saucedemo/src/test/java/com/screenplay/project/userinterface/CartPage.java
+/Users/sheilatapia/serenity-saucedemo/src/test/java/com/screenplay/project/userinterface/CheckoutPage.java
+/Users/sheilatapia/serenity-saucedemo/src/test/java/com/screenplay/project/userinterface/InventoryPage.java
+/Users/sheilatapia/serenity-saucedemo/src/test/java/com/screenplay/project/userinterface/LoginPage.java
+/Users/sheilatapia/serenity-saucedemo/src/test/java/com/screenplay/project/utils/EnvironmentReader.java
